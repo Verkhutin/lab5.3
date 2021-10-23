@@ -7,7 +7,7 @@ using namespace std;
 double S(double x) {
 	double s = 1, R, a = 1;
 	for (int i = 1; i <= 6; i++) {
-		R = x * x / 2 * i;
+		R = x * x / (2 * i);
 		a *= R;
 		s += a;
 	}
